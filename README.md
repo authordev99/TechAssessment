@@ -50,10 +50,10 @@ This is one way to run your app — you can also run it directly from within And
 
 Now that you have successfully run the app, let's modify it.
 
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
-
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
+1. Open `App.tsx`, you can see Navigation Container which have children `Navbar.tsx` components.
+2. `Navbar.tsx` is the component contain the Drawer navigator and screen which solve Question no 2.
+3. `Calculator.tsx` is the screen contain the calculator function as describe on Question 1
+4. `question.ts` is the solution of Question 3 which you can running with typescript compiler using `npx ts-node .src/pages/answers/question3.ts` or just copy paste on typescript compiler
 
 ## Congratulations! :tada:
 
